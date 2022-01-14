@@ -23,6 +23,12 @@ display: flex;
 align-items: center;
 cursor: pointer;
 margin-right: 3.5rem;
+@media only screen and (max-width: 768px) {
+    
+    
+           margin-right: 0%; 
+   
+  }
 `;
 
 export const CoverContainer=styled.div`

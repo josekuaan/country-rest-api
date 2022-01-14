@@ -25,7 +25,6 @@ width: 100%;
 export const Container=styled.div`
 padding: 3rem 3.5rem;
 @media only screen and (max-width: 480px) {
-    
        padding: 3rem
   }
 `
@@ -47,12 +46,15 @@ background-color: white;
   width: 21%;
   margin-top: 3rem;
   margin-right: 3rem;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin-right : 0rem;
+  }
   @media only screen and (min-width: 768px) {
   width: 100%;
-  margin-right: 0rem;
 }
-@media only screen and (max-width: 600px) {width: 100%;margin-right: 0rem;}
-@media only screen and (min-width: 992px) {width: 30%;}
+@media only screen and (min-width: 600px) {width: 100%;margin-right : 0rem;}
+@media only screen and (min-width: 992px) {width: 26%;}
 @media only screen and (min-width: 1200px) {width:21%}
 `
 
@@ -66,7 +68,7 @@ display: flex;
 flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 3rem;
-    /* padding: 2rem 3.5rem; */
+    @media only screen and (min-width: 600px) {width: 100%;margin-right : 0rem;}
 `
 
 export const DetailsContainer=styled.div`
