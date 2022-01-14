@@ -193,5 +193,5 @@ select#xyz {
 
   @media only screen and (max-width: 480px) {select{margin-top: 30px;}}
 
-
+  @media only screen and (min-width: 1200px) {select{width:21%;margin-right : 3rem;}}
 

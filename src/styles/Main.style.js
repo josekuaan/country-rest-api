@@ -55,7 +55,7 @@ background-color: white;
 }
 @media only screen and (min-width: 600px) {width: 100%;margin-right : 0rem;}
 @media only screen and (min-width: 992px) {width: 26%;}
-@media only screen and (min-width: 1200px) {width:21%}
+@media only screen and (min-width: 1200px) {width:21%;margin-right : 3rem;}
 `
 
 export const Span=styled.span`
